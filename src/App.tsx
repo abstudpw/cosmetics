@@ -26,7 +26,7 @@ function App() {
                         <Toolbar>
                             <Link to={`/`}><CameraIcon sx={{ mr: 2 }} /></Link>
                             <Typography variant="h6" noWrap style={{marginLeft: '20px', marginRight: '20px'}}>
-                                <Link to={`/`} style={{ textDecoration: 'none', color: 'white' }}>Strona główna</Link>
+                                <Link to={`/cosmetics`} style={{ textDecoration: 'none', color: 'white' }}>Strona główna</Link>
                             </Typography>
                             <Typography variant="h6" noWrap style={{marginLeft: '20px', marginRight: '20px'}}>
                                 <Link to={`/about`} style={{ textDecoration: 'none', color: 'white' }}>O projekcie</Link>
